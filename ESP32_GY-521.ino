@@ -22,8 +22,6 @@ void setoffset(MPU6050 mpu, int XAccel_offset, int YAccel_offset, int ZAccel_off
 }
 
 void setup() {
-  int XAccel_offset, YAccel_offset, ZAccel_offset, XGyro_offset, YGyro_offset, ZGyro_offset;
-
   Serial.begin(115200);
   Wire.begin();
   
